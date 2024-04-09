@@ -1,0 +1,183 @@
+/* Global Styling */
+* {
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar .container-fluid{
+    background-color: #F2F2F2;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 75px;
+    z-index: 1;
+}
+
+.container-fluid .navbar-brand{
+    font-size: 2.5rem;
+    color: #593128;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    margin-left: 2.5%;
+    color: #593128;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 2.5%;
+}
+
+.navbar-nav .nav-link{
+    color: #593128;
+}
+
+.nav-item {
+    font-size: 2rem;
+}
+
+.nav-link {
+    display: block;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: #FFB65C;
+}
+
+a.navbar-brand:hover {
+    color: #FFB65C;
+}
+
+/* Footer */
+.footer_flex {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    background-color: #A3B5D9;
+}
+
+.footer_flex a {
+    text-decoration: none;
+    color: #593128;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+.footer_flex h2 {
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+/* Desktop First Styling */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Advent Pro", sans-serif;
+}
+
+.content_title {
+    text-align: center;
+    color: #593128;
+}
+
+.contrast_container {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    background: #FFB65C;
+    padding: 15px;
+}
+
+.col {
+    margin: 0 2px;
+    min-height: fit-content;
+    color: #593128;
+}
+
+.col h3 {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.image_under {
+    position: relative;
+    text-decoration: none;
+    color: #593128;
+}
+
+.text_overlay {
+    position: absolute;
+    margin-left: 41%;
+}
+
+.image_under:hover {
+    color: #A66A5D;
+}
+
+/* Styling for the jumbotron */
+div.hero {
+    display: flex;
+    justify-content: center;
+    top: 15%;
+    width: 100vw;
+    max-height: 100vh;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.hero article {
+    /* position: relative; */
+    top: 12%;
+    left: 25%;
+    width: 50%;
+    padding: 1%;
+    background-color:#A3B5D9;
+}
+.hero article h1 {
+    text-align: center;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+    color: #593128;
+}
+.hero article p {
+    padding: 0 3%;
+    text-align: center;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+    color: #A66A5D;
+    font-size: 20px;
+}
+
+/* Styling for the Barista Highlights */
+
+
+
+/* Responsive Sizing */
+@media screen and (max-width:767px) {
+}
