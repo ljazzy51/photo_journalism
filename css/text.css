@@ -113,7 +113,7 @@ main {
 .content_article {
     text-align: justify;
     color: #593128;
-    padding: 10px 45px;
+    padding: 10px 75px;
 }
 
 .row {
@@ -177,7 +177,7 @@ div.hero {
     text-align: center;
     font-family: 'Quicksand','Open Sans', sans-serif;
     color: #A66A5D;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* Styling for the Barista Highlights */
