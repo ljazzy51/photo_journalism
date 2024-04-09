@@ -103,11 +103,17 @@ main {
 
 .content_title {
     text-align: center;
-    color: #593128;
+    color: #FFB65C;
 }
 
 .contrast_container {
     text-align: center;
+}
+
+.content_article {
+    text-align: justify;
+    color: #593128;
+    padding: 10px 45px;
 }
 
 .row {
