@@ -64,11 +64,11 @@ body {
 }
 
 .nav-item a:hover {
-    color: #A66A5D;
+    color: #FFB65C;
 }
 
 a.navbar-brand:hover {
-    color: #A66A5D;
+    color: #FFB65C;
 }
 
 /* Footer */
@@ -77,10 +77,9 @@ a.navbar-brand:hover {
     margin: 2rem auto;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
     padding: 0 5%;
     background-color: #A3B5D9;
-    border-radius: 25px;
 }
 
 .footer_flex a {
@@ -102,32 +101,83 @@ main {
     font-family: "Advent Pro", sans-serif;
 }
 
+.content_title {
+    text-align: center;
+    color: #FFB65C;
+}
+
+.contrast_container {
+    text-align: center;
+}
+
+.content_article {
+    text-align: justify;
+    color: #593128;
+    padding: 10px 45px;
+}
+
+.row {
+    text-align: center;
+    background: #FFB65C;
+    padding: 15px;
+}
+
+.col {
+    margin: 0 2px;
+    min-height: fit-content;
+    color: #593128;
+}
+
+.col h3 {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.image_under {
+    position: relative;
+    text-decoration: none;
+    color: #593128;
+}
+
+.text_overlay {
+    position: absolute;
+    margin-left: 41%;
+}
+
+.image_under:hover {
+    color: #A66A5D;
+}
+
 /* Styling for the jumbotron */
 div.hero {
+    display: flex;
+    justify-content: center;
     top: 15%;
     width: 100vw;
     max-height: 100vh;
-    overflow: hidden;
-    position: relative;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+
 }
 .hero article {
-    position: absolute;
+    /* position: relative; */
     top: 12%;
     left: 25%;
     width: 50%;
     padding: 1%;
     background-color:#A3B5D9;
-    border-radius: 35px;
 }
 .hero article h1 {
     text-align: center;
     font-family: 'Quicksand','Open Sans', sans-serif;
+    color: #593128;
 }
 .hero article p {
     padding: 0 3%;
-    text-align: justify;
+    text-align: center;
     font-family: 'Quicksand','Open Sans', sans-serif;
+    color: #A66A5D;
+    font-size: 20px;
 }
 
 /* Styling for the Barista Highlights */
