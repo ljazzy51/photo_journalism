@@ -117,15 +117,24 @@ main {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     background: #FFB65C;
-    padding: 15px;
+    padding: 25px 45px;
 }
+
 
 .col {
     margin: 0 2px;
     min-height: fit-content;
     color: #593128;
+}
+
+.img_fit{
+    object-position: left;
+    object-fit: cover;
 }
 
 .col h3 {

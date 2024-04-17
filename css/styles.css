@@ -111,9 +111,12 @@ main {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     background: #FFB65C;
-    padding: 15px;
+    padding: 25px 45px;
 }
 
 .col {
@@ -130,16 +133,20 @@ main {
 .image_under {
     position: relative;
     text-decoration: none;
-    color: #593128;
+    color: #F2F2F2;
 }
 
 .text_overlay {
     position: absolute;
-    margin-left: 41%;
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-shadow: 2.5px 0px #465d45bd;
 }
 
 .image_under:hover {
-    color: #A66A5D;
+    color: #af8a81;
 }
 
 /* Styling for the jumbotron */
