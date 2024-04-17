@@ -5,7 +5,8 @@
 
 html body{
     margin: 0;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
 img{
@@ -78,7 +79,7 @@ a.navbar-brand:hover {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 5%;
+    padding: 1% 5%;
     background-color: #a3b5d974;
 }
 
@@ -88,10 +89,15 @@ a.navbar-brand:hover {
     font-family: 'Quicksand','Open Sans', sans-serif;
 }
 
-.footer_flex h2 {
+.footer_flex h3 {
     font-family: 'Quicksand','Open Sans', sans-serif;
 }
-
+.footer_flex h4 {
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+.footer_flex h6 {
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
 /* Desktop First Styling */
 
 main {
