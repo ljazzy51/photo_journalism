@@ -19,7 +19,7 @@ body {
 
 /* Navigation Bar */
 .navbar .container-fluid{
-    background-color: #F2F2F2;
+    background-color: #a3b5d974;
     font-family: 'Quicksand','Open Sans', sans-serif;
 }
 
@@ -79,7 +79,7 @@ a.navbar-brand:hover {
     align-items: center;
     width: 100%;
     padding: 0 5%;
-    background-color: #A3B5D9;
+    background-color: #a3b5d974;
 }
 
 .footer_flex a {
@@ -102,18 +102,23 @@ main {
 }
 
 .content_title {
-    text-align: center;
-    color: #FFB65C;
+    text-align: left;
+    margin-left: 75px;
+    color: #A66A5D;
+    text-shadow: 2px 0px #FFB65C;
 }
 
 .contrast_container {
     text-align: center;
+    background-color: #ffb65c6a;
+    padding: 25px;
 }
 
 .content_article {
     text-align: justify;
     color: #593128;
     padding: 10px 75px;
+    font-size: 1.3rem;
 }
 
 .row {
@@ -133,19 +138,10 @@ main {
     font-size: 25px;
 }
 
-.image_under {
-    position: relative;
-    text-decoration: none;
-    color: #593128;
-}
-
-.text_overlay {
-    position: absolute;
-    margin-left: 41%;
-}
-
-.image_under:hover {
-    color: #A66A5D;
+.image_br{
+    width: 75%;
+    height: auto;
+    padding-bottom: 25px;
 }
 
 /* Styling for the jumbotron */
